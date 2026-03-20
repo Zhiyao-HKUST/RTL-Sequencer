@@ -1,0 +1,12 @@
+MODEL:
+  model_type: GPSConv
+  layer_name: GatedGraphConv 
+  attention_type: mamba2_bidirectional
+  c_hidden: 32
+  c_out: 1
+  num_layers: 3
+  dp_rate: 0
+  d_state: 256
+  d_conv: 3
+  expand: 4
+  headdim: 16
